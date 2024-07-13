@@ -1,0 +1,22 @@
+<taglib>
+    <jsp-version>2.1</jsp-version>
+    <short-name>myTagShortName</short-name>
+    <tlib-version>1.0</tlib-version>
+    <tag>
+        <name>myTagName</name>
+        <tag-class>com.example.demo.MyTagHandler</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>digits</name>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <name>myLoop</name>
+        <tag-class>com.example.demo.Tag2Handler</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>iteration</name>
+        </attribute>
+    </tag>
+</taglib>
